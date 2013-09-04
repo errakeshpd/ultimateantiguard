@@ -1,0 +1,60 @@
+#!/usr/python
+print "hai , yes my body executed"
+
+#function to choose the drive.
+def choose_drive(n):
+   print "Choose the drive that you want to clean "
+   print ""
+   print "1 :-> C:\ "
+   print "2 :-> D:\ "
+   print "3 :-> E:\ "
+   print "4 :-> F:\ "
+   print "5 :-> G:\ "
+   opt=1
+   switch(opt)
+      case(1):
+	     drive="C:\"
+		 break
+      case(2):
+	     drive="D:\"
+		 break		 
+      case(3):
+	     drive="E:\"
+		 break      
+      case(4):
+	     drive="F:\"
+		 break	
+      case(5):
+	     drive="G:\"
+		 break         
+#end of choose_drive()
+
+#function to retreive the shortcut virus and the Super hidden files 
+def scan_files(rtrv_drive):
+   print "scan_files()"
+#end of scan_files()
+
+#function to set the attribute +s +h
+def super_attribute_set(n):
+   print "super_attribute_set(n)"
+#end of super_attribute_set()
+
+#function to delete the shortcut folder
+def delete_links(n):
+  print "delete_links(n)"
+#end of delete_links()
+
+
+
+choose_drive(5)
+scan_files(drive)
+super_attribute_set(5)
+delete_links(5)
+
+
+
+	
+
+
+
+
